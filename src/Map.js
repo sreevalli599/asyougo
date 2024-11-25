@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { LoadScript, GoogleMap, Marker, DirectionsRenderer } from '@react-google-maps/api';
 
 // Your API Key
-const API_KEY = 'AIzaSyD-t6oh57OWGbQe599z2kVPzm5KqyTWdro';
+const API_KEY = {myapikey};
 
 const Map = () => {
   const [directions, setDirections] = useState(null);
